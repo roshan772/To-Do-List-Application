@@ -1,0 +1,128 @@
+/* Reset & Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+}
+
+/* Container Styling */
+.container {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* To-Do App Box */
+.todo-app {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.todo-app h2 {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+}
+
+.todo-app h2 img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+/* Input & Button Row */
+.row {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.row input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.row input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.row button {
+    background: #ff9800;
+    border: none;
+    padding: 12px 25px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.row button:hover {
+    background: #ff5722;
+}
+
+/* Task List */
+ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    padding: 12px 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+ul li:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Checked Task */
+ul li.checked {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+ul li span {
+    cursor: pointer;
+    color: red;
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+ul li span:hover {
+    color: white;
+    background: rgba(255, 0, 0, 0.4);
+    border-radius: 50%;
+    padding: 2px;
+}
