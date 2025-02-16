@@ -21,4 +21,4 @@ A simple and modern To-Do List app to help you stay organized and productive! �
 4️⃣ Click the ❌ icon to delete a task.
 
 🔹 Screenshot:
-(You can upload an image here by adding ![alt text]() after pushing your file.)
+ ![alt text](https://github.com/roshan772/To-Do-List-Application/blob/afffba66e3d06123e2d54a9c05d0fa5019b018c5/Screenshot%202025-02-16%20231011.png)
